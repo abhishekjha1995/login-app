@@ -91,8 +91,6 @@ const Signup = (props) => {
                   type="text"
                   value={formData.email}
                   onChange={handleChange('displayName')}
-                  error={false}
-                  helperText=""
                 />
             </Grid>
           </Grid>
